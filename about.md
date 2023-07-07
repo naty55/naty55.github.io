@@ -1,5 +1,5 @@
 layout: page
-title: "About me"
+title: "About him"
 permalink: /coco
 
 # About me 
