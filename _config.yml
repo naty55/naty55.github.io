@@ -1,4 +1,4 @@
-remote_theme: https://github.com/streetturtle/jekyll-clean-dark
+remote_theme: minima
 plugins:
 - jekyll-remote-theme
 title: "Naty's blog"
