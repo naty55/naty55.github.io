@@ -1,6 +1,6 @@
 layout: page
 title: "About me"
-permalink: /about
+permalink: /coco
 
 # About me 
 Here is some stuff about me 
