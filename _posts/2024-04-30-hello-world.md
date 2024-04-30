@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  "Welcome to Jekyll!"
+permalink: /hello-world
 ---
 
 # Welcome
