@@ -8,11 +8,11 @@ body {
 }
 
 .mode-toggle::before {
-    content: '\2600'; /* Unicode for sun icon */
+    content: '\1F319'; /* Unicode for moon icon */
     left: 0;
     top: 0;
 }
 
 .dark-mode > .mode-toggle ::before {
-    content: '\1F319'; /* Unicode for moon icon */
+    content: '\2600'; /* Unicode for sun icon */
 }
