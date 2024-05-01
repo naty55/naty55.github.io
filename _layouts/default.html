@@ -5,11 +5,62 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/css/style.css">
+        <style>
+        body {
+            transition: background-color 0.3s ease;
+        }
+
+        header {
+            background-color: #f2f2f2;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .mode-toggle {
+            cursor: pointer;
+            font-size: 24px;
+            position: relative;
+        }
+
+        .mode-toggle::before {
+            content: '\2600'; /* Unicode for sun icon */
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .mode-toggle.dark-mode::before {
+            content: '\1F319'; /* Unicode for moon icon */
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .dark-mode header {
+            background-color: #333;
+        }
+
+        .dark-mode .content {
+            color: white;
+            background-color: #111;
+        }
+    </style>
   </head>
   <body>
+    <script>
+        const modeToggle = document.getElementById('modeToggle');
+
+        modeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
     <nav>
       <a href="/">Home</a>
       <a href="/blog/">Blog</a>
+      <div class="mode-toggle" id="modeToggle"></div>
     </nav>
     <h1>{{ page.title }}</h1>
     <section>
