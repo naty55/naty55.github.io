@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "About him"
-permalink: /coco
+permalink: /about
 ---
 
 # About me 
