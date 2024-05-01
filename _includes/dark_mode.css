@@ -1,0 +1,18 @@
+body {
+    transition: background-color 0.3s ease;
+}
+
+.mode-toggle {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.mode-toggle::before {
+    content: '\2600'; /* Unicode for sun icon */
+    left: 0;
+    top: 0;
+}
+
+.mode-toggle.dark-mode::before {
+    content: '\1F319'; /* Unicode for moon icon */
+}
