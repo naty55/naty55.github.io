@@ -1,8 +1,2 @@
-remote_theme: minima
-plugins:
-- jekyll-remote-theme
 title: "Naty's blog"
 description: Technical blog 
-
-minima:
-  skin: dark
