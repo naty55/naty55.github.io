@@ -13,6 +13,6 @@ body {
     top: 0;
 }
 
-.mode-toggle.dark-mode::before {
+.mode-toggle .dark-mode::before {
     content: '\1F319'; /* Unicode for moon icon */
 }
