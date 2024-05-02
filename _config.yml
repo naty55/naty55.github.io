@@ -1,2 +1,7 @@
 title: "Naty's blog"
-description: Technical blog 
+description: My dear blog
+
+plugins:
+  - kramdown/syntax_tree_sitter
+kramdown:
+  syntax_highlighter: tree-sitter
