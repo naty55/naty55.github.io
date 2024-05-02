@@ -1,6 +1,6 @@
 title: "Naty's blog"
 description: My dear blog
-markdown: kramdown
+markdown: GFM
 plugins:
   - kramdown/syntax_tree_sitter
 kramdown:
