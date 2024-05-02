@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-permalink: /hello-world
+permalink: /hello-world-2
 ---
 
 # Second Post 
