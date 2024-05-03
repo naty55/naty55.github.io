@@ -1,7 +1,2 @@
 title: "Naty's blog"
 description: My dear blog
-markdown: GFM
-plugins:
-  - kramdown/syntax_tree_sitter
-kramdown:
-  syntax_highlighter: tree-sitter
