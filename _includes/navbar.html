@@ -27,21 +27,21 @@
   <script>
        // Function to set dark mode
       function setDarkMode() {
-        document.documentElement.setAttribute('data-bs-theme', 'dark')
-        document.body.classList.add('dark-mode');
+        document.documentElement.setAttribute('data-bs-theme', 'dark');
+        document.getElementById("modeToggle").innerHTML = '\u2600';
         localStorage.setItem('theme', 'dark');
       }
 
       // Function to set light mode
       function setLightMode() {
         document.documentElement.setAttribute('data-bs-theme', 'light');
-        document.body.classList.remove('dark-mode');
+        document.getElementById("modeToggle").innerHTML = '\u{1F319}';
         localStorage.setItem('theme', 'light');
       }
 
       // Toggle dark mode
       function toggleDarkMode() {
-          if (document.body.classList.contains('dark-mode')) {
+          if (document.documentElement.getAttribute('data-bs-theme') == 'dark') {
               setLightMode();
           } else {
               setDarkMode();
@@ -49,11 +49,13 @@
       }
 
       // Check dark mode preference from local storage
-      const darkMode = localStorage.getItem('theme');
+      const theme = localStorage.getItem('theme');
 
       // Set dark mode if it was enabled
-      if (darkMode === 'dark') {
-          setDarkMode();
+      if (theme === 'light') {
+          setLightMode();
+      } else {
+        setDarkMode(); // Default
       }
 
       // Add click event listener to mode toggle
