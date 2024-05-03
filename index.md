@@ -1,3 +1,8 @@
+---
+layout: default 
+permalink: /
+---
+
 # Lorem Ipsum  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet justo ac lorem hendrerit, bibendum lobortis ante tincidunt. Ut convallis egestas lobortis. Sed at urna orci. In non egestas urna. Sed sit amet volutpat lacus. In hac habitasse platea dictumst. Fusce sagittis justo est. Nunc nec gravida metus, vitae elementum lectus. Nunc vel suscipit felis. Proin velit lectus, malesuada sed pretium in, faucibus faucibus sem. Integer non nisl pharetra, accumsan augue feugiat, pulvinar sem. Vestibulum mollis nunc a justo porta condimentum. Suspendisse ultricies bibendum nisl, eu vehicula leo sollicitudin nec. Nulla vel odio fringilla risus aliquam aliquet porttitor eget dolor. Integer bibendum in mi ut gravida.
 

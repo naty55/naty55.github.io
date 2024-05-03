@@ -3,15 +3,15 @@ layout: default
 permalink: /posts
 ---
 
-<ul>
-    {% for post in site.posts %}
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="/favicon.ico" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">{{post.title}}</h5>
-        <p class="card-text">{{ post.excerpt | truncate: 156 }}</p>
-        <a href={{post.url}} class="btn btn-primary">Read</a>
-      </div>
+<div class="d-flex flex-column justify-content-end">
+{% for post in site.posts %}
+  <div class="card" style="width: 40rem;">
+    <img class="card-img-top" src="/favicon.ico" alt="Blog logo">
+    <div class="card-body">
+      <h5 class="card-title">{{post.title}}</h5>
+      <p class="card-text">{{ post.excerpt | truncate: 156 }}</p>
+      <a href={{post.url}} class="btn btn-primary">Read</a>
     </div>
-    {% endfor %}
-  </ul>
+  </div>
+{% endfor %}
+</div>
