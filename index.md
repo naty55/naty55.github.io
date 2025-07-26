@@ -4,7 +4,7 @@ permalink: /
 ---
 
 # Welcome to my website
-Thank you for visting my website
+Thank you for visting my website\
 Here I'm going to share some thoughts 
 
 # Lorem Ipsum 2  
