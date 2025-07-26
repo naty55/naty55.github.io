@@ -5,6 +5,7 @@ permalink: /
 
 # Welcome to my website
 Thank you for visting my website
+Here I'm going to share some thoughts 
 
 # Lorem Ipsum 2  
 Nulla facilisi. Nullam fermentum mauris id finibus vestibulum. Integer varius condimentum urna, ac sodales odio auctor eget. Praesent id venenatis nulla. Sed efficitur metus quam, quis venenatis metus iaculis eget. Aliquam id tristique ante, non varius leo. Etiam bibendum, neque pretium iaculis placerat, diam mauris rhoncus justo, id rhoncus risus enim at metus. Cras pulvinar sagittis tellus. Integer erat felis, euismod vel consequat sit amet, suscipit eu enim. Morbi scelerisque sollicitudin elit ac fringilla. Nunc sollicitudin porttitor arcu, vel consectetur felis tempor pretium.
